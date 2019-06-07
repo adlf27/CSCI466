@@ -1,0 +1,381 @@
+Luis Aguinaga
+z1811673 
+section 4
+MariaDB [(none)]> \. assign5.sql
+ERROR 1046 (3D000): No database selected
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| name   | varchar(15) | NO   | PRI | NULL    |       |
+| count  | int(11)     | YES  |     | NULL    |       |
+| gender | char(1)     | NO   | PRI | NULL    |       |
+| year   | smallint(6) | NO   | PRI | NULL    |       |
+| place  | char(2)     | NO   | PRI | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
++------+------+
+| name | year |
++------+------+
+| Luis | 1920 |
+| Luis | 1923 |
+| Luis | 1926 |
+| Luis | 1927 |
+| Luis | 1928 |
+| Luis | 1929 |
+| Luis | 1931 |
+| Luis | 1932 |
+| Luis | 1933 |
+| Luis | 1935 |
+| Luis | 1940 |
+| Luis | 1946 |
+| Luis | 1948 |
+| Luis | 1949 |
+| Luis | 1950 |
+| Luis | 1951 |
+| Luis | 1952 |
+| Luis | 1953 |
+| Luis | 1954 |
+| Luis | 1956 |
+| Luis | 1957 |
+| Luis | 1958 |
+| Luis | 1959 |
+| Luis | 1960 |
+| Luis | 1961 |
+| Luis | 1962 |
+| Luis | 1964 |
+| Luis | 1965 |
+| Luis | 1966 |
+| Luis | 1967 |
+| Luis | 1968 |
+| Luis | 1969 |
+| Luis | 1970 |
+| Luis | 1971 |
+| Luis | 1972 |
+| Luis | 1973 |
+| Luis | 1974 |
+| Luis | 1975 |
+| Luis | 1976 |
+| Luis | 1977 |
+| Luis | 1978 |
+| Luis | 1979 |
+| Luis | 1980 |
+| Luis | 1981 |
+| Luis | 1982 |
+| Luis | 1983 |
+| Luis | 1984 |
+| Luis | 1985 |
+| Luis | 1986 |
+| Luis | 1987 |
++------+------+
+50 rows in set (0.00 sec)
+
++------------+------+
+| name       | year |
++------------+------+
+| Aadam      | 1994 |
+| Aadil      | 1994 |
+| Aailyah    | 1994 |
+| Aakash     | 1994 |
+| Aakeem     | 1994 |
+| Aala       | 1994 |
+| Aalayah    | 1994 |
+| Aaleeyah   | 1994 |
+| Aaleyah    | 1994 |
+| Aalia      | 1994 |
+| Aaliah     | 1994 |
+| Aaliayah   | 1994 |
+| Aalijah    | 1994 |
+| Aaliya     | 1994 |
+| Aaliyah    | 1994 |
+| Aaliyan    | 1994 |
+| Aaliyha    | 1994 |
+| Aalliyah   | 1994 |
+| Aalyah     | 1994 |
+| Aalyiah    | 1994 |
+| Aamina     | 1994 |
+| Aaminah    | 1994 |
+| Aamir      | 1994 |
+| Aamna      | 1994 |
+| Aaran      | 1994 |
+| Aaren      | 1994 |
+| Aariana    | 1994 |
+| Aaric      | 1994 |
+| Aarica     | 1994 |
+| Aariel     | 1994 |
+| Aarik      | 1994 |
+| Aarika     | 1994 |
+| Aarin      | 1994 |
+| Aarion     | 1994 |
+| Aariona    | 1994 |
+| Aaron      | 1994 |
+| Aaronjames | 1994 |
+| Aarren     | 1994 |
+| Aarron     | 1994 |
+| Aarthi     | 1994 |
+| Aarti      | 1994 |
+| Aaryn      | 1994 |
+| Aasha      | 1994 |
+| Aashish    | 1994 |
+| Aashna     | 1994 |
+| Abad       | 1994 |
+| Abagael    | 1994 |
+| Abagail    | 1994 |
+| Abagale    | 1994 |
+| Abaigeal   | 1994 |
++------------+------+
+50 rows in set (0.00 sec)
+
++-------------+--------+----------+
+| name        | gender | COUNT(*) |
++-------------+--------+----------+
+| James       | M      |       52 |
+| Joseph      | M      |       52 |
+| Ian         | M      |       52 |
+| Thomas      | M      |       52 |
+| Andrew      | M      |       52 |
+| John        | M      |       52 |
+| Taylor      | M      |       52 |
+| Richard     | M      |       52 |
+| Ryan        | M      |       52 |
+| Samuel      | M      |       52 |
+| Nicholas    | M      |       52 |
+| Seth        | M      |       52 |
+| Jeremy      | M      |       52 |
+| Caleb       | M      |       52 |
+| Alexander   | M      |       52 |
+| Steven      | M      |       52 |
+| Adam        | M      |       52 |
+| Robert      | M      |       52 |
+| Trevor      | M      |       52 |
+| Jared       | M      |       52 |
+| Kyle        | M      |       52 |
+| Gabriel     | M      |       52 |
+| Benjamin    | M      |       52 |
+| Timothy     | M      |       52 |
+| Aaron       | M      |       52 |
+| Charles     | M      |       52 |
+| Justin      | M      |       52 |
+| Kenneth     | M      |       52 |
+| Brandon     | M      |       52 |
+| Dillon      | M      |       52 |
+| Cameron     | M      |       52 |
+| Matthew     | M      |       52 |
+| Mitchell    | M      |       52 |
+| Shawn       | M      |       52 |
+| Gregory     | M      |       52 |
+| Joshua      | M      |       52 |
+| Christian   | M      |       52 |
+| Christopher | M      |       52 |
+| Connor      | M      |       52 |
+| Corey       | M      |       52 |
+| Shane       | M      |       52 |
+| Stephen     | M      |       52 |
+| Dylan       | M      |       52 |
+| Jason       | M      |       52 |
+| Nathan      | M      |       52 |
+| Scott       | M      |       52 |
+| Austin      | M      |       52 |
+| Mark        | M      |       52 |
+| Michael     | M      |       52 |
+| Tyler       | M      |       52 |
++-------------+--------+----------+
+50 rows in set (0.00 sec)
+
++------------+--------+----------+
+| name       | gender | COUNT(*) |
++------------+--------+----------+
+| Natalie    | F      |       52 |
+| Allison    | F      |       52 |
+| Brianna    | F      |       52 |
+| Hannah     | F      |       52 |
+| Bethany    | F      |       52 |
+| Samantha   | F      |       52 |
+| Courtney   | F      |       52 |
+| Danielle   | F      |       52 |
+| Jordan     | F      |       52 |
+| Kimberly   | F      |       52 |
+| Kristen    | F      |       52 |
+| Mariah     | F      |       52 |
+| Erin       | F      |       52 |
+| Brittany   | F      |       52 |
+| Jennifer   | F      |       52 |
+| Ashley     | F      |       52 |
+| Alexandria | F      |       52 |
+| Katherine  | F      |       52 |
+| Sara       | F      |       52 |
+| Brooke     | F      |       52 |
+| Haley      | F      |       52 |
+| Autumn     | F      |       52 |
+| Maria      | F      |       52 |
+| Jamie      | F      |       52 |
+| Miranda    | F      |       52 |
+| Tiffany    | F      |       52 |
+| Alicia     | F      |       52 |
+| Katelyn    | F      |       52 |
+| Sarah      | F      |       52 |
+| Laura      | F      |       52 |
+| Kelsey     | F      |       52 |
+| Rachel     | F      |       52 |
+| Rebecca    | F      |       52 |
+| Chelsea    | F      |       52 |
+| Erika      | F      |       52 |
+| Sierra     | F      |       52 |
+| Olivia     | F      |       52 |
+| Emma       | F      |       52 |
+| Sydney     | F      |       52 |
+| Heather    | F      |       52 |
+| Marissa    | F      |       52 |
+| Briana     | F      |       52 |
+| Nicole     | F      |       52 |
+| Melissa    | F      |       52 |
+| Alexis     | F      |       52 |
+| Kathryn    | F      |       52 |
+| Amy        | F      |       52 |
+| Savannah   | F      |       52 |
+| Victoria   | F      |       52 |
+| Morgan     | F      |       52 |
++------------+--------+----------+
+50 rows in set (0.00 sec)
+
++---------+--------+------+-------+
+| name    | gender | year | place |
++---------+--------+------+-------+
+| Lui     | M      | 1990 | US    |
+| Lui     | M      | 1996 | US    |
+| Lui     | M      | 2001 | US    |
+| Lui     | M      | 2005 | US    |
+| Lui     | M      | 2007 | US    |
+| Lui     | M      | 2010 | US    |
+| Lui     | M      | 2011 | US    |
+| Lui     | M      | 2012 | US    |
+| Lui     | M      | 2013 | US    |
+| Lui     | M      | 2014 | US    |
+| Lui     | M      | 2015 | US    |
+| Luian   | M      | 2011 | US    |
+| Luian   | M      | 2012 | US    |
+| Luian   | M      | 2013 | US    |
+| Luian   | M      | 2014 | US    |
+| Luian   | M      | 2015 | US    |
+| Luicana | F      | 1975 | US    |
+| Luicana | F      | 1976 | US    |
+| Luida   | F      | 1912 | US    |
+| Luie    | M      | 1915 | US    |
+| Luie    | M      | 1916 | US    |
+| Luie    | M      | 1917 | US    |
+| Luie    | M      | 1918 | US    |
+| Luie    | M      | 1919 | US    |
+| Luie    | M      | 1920 | US    |
+| Luie    | M      | 1921 | US    |
+| Luie    | M      | 1922 | US    |
+| Luie    | M      | 1923 | US    |
+| Luie    | M      | 1924 | US    |
+| Luie    | M      | 1925 | US    |
+| Luie    | M      | 1926 | US    |
+| Luie    | M      | 1927 | US    |
+| Luie    | M      | 1928 | US    |
+| Luie    | M      | 1930 | US    |
+| Luie    | M      | 1933 | US    |
+| Luie    | M      | 1939 | US    |
+| Luie    | M      | 1943 | US    |
+| Luie    | M      | 1947 | US    |
+| Luie    | M      | 1953 | US    |
+| Luie    | M      | 1977 | US    |
+| Luiggi  | M      | 1994 | US    |
+| Luiggi  | M      | 2003 | US    |
+| Luigi   | M      | 1900 | US    |
+| Luigi   | M      | 1902 | US    |
+| Luigi   | M      | 1905 | US    |
+| Luigi   | M      | 1907 | US    |
+| Luigi   | M      | 1908 | US    |
+| Luigi   | M      | 1910 | US    |
+| Luigi   | M      | 1911 | US    |
+| Luigi   | M      | 1912 | NY    |
++---------+--------+------+-------+
+50 rows in set (0.01 sec)
+
++----------+
+| COUNT(*) |
++----------+
+|  7601706 |
++----------+
+1 row in set (0.00 sec)
+
++------+----------+
+| year | COUNT(*) |
++------+----------+
+| 1960 |    64807 |
++------+----------+
+1 row in set (0.00 sec)
+
++------+--------+----------+
+| year | gender | COUNT(*) |
++------+--------+----------+
+| 1956 | F      |    35318 |
+| 1956 | M      |    26128 |
++------+--------+----------+
+2 rows in set (0.00 sec)
+
++-------+----------+
+| place | COUNT(*) |
++-------+----------+
+| AK    |    27143 |
+| AL    |   128556 |
+| AR    |    97560 |
+| AZ    |   108599 |
+| CA    |   361128 |
+| CO    |   101403 |
+| CT    |    78039 |
+| DC    |    53933 |
+| DE    |    30892 |
+| FL    |   191928 |
+| GA    |   172144 |
+| HI    |    52696 |
+| IA    |    89476 |
+| ID    |    55018 |
+| IL    |   218033 |
+| IN    |   131719 |
+| KS    |    89748 |
+| KY    |   113070 |
+| LA    |   142233 |
+| MA    |   112605 |
+| MD    |   104849 |
+| ME    |    48713 |
+| MI    |   173590 |
+| MN    |   107818 |
+| MO    |   131478 |
+| MS    |   109681 |
+| MT    |    44060 |
+| NC    |   163740 |
+| ND    |    44411 |
+| NE    |    68616 |
+| NH    |    37486 |
+| NJ    |   144611 |
+| NM    |    72585 |
+| NV    |    43473 |
+| NY    |   282486 |
+| OH    |   185277 |
+| OK    |   111492 |
+| OR    |    83676 |
+| PA    |   188681 |
+| RI    |    38789 |
+| SC    |   112529 |
+| SD    |    45559 |
+| TN    |   132832 |
+| TX    |   330672 |
+| US    |  1858689 |
+| UT    |    84193 |
+| VA    |   139163 |
+| VT    |    28006 |
+| WA    |   116631 |
+| WI    |   110188 |
+| WV    |    74572 |
+| WY    |    27237 |
++-------+----------+
+52 rows in set (0.00 sec)
+
+MariaDB [BabyName]> \t
